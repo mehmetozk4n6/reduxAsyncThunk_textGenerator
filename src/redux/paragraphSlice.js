@@ -15,7 +15,7 @@ export const paragraphsSlice = createSlice({
   initialState: {
     status: "idle",
     items: [],
-    includeHTML: true,
+    includeHTML: "true",
   },
   reducers: {
     changeHTML: (state, action) => {
