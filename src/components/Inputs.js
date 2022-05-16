@@ -4,7 +4,7 @@ import { fetchParagraphs, changeHTML } from "../redux/paragraphSlice";
 
 function Inputs() {
   const [paragraphCount, setParahraphCount] = useState(1);
-  const [includeHTML, setIncludeHTML] = useState(true);
+  const [includeHTML, setIncludeHTML] = useState("true");
   const dispatch = useDispatch();
 
   useEffect(() => {
